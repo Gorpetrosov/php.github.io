@@ -1,0 +1,8 @@
+
+
+[2018-02-17_11:03:36 test0] ### __construct() called!
+[2018-02-17_11:03:36 test0] Hello!Lilit
+[2018-02-17_11:03:36 test0] ### __destruct() called!
+[2018-02-17_11:03:36 test1] ### __construct() called!
+[2018-02-17_11:03:36 test1] Hello!Lilit
+[2018-02-17_11:03:36 test1] ### __destruct() called!
