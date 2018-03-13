@@ -1,0 +1,14 @@
+# Устанавливаем кадировку
+AddDefaultCharset utf-8
+
+# Разрешаем перенаправление
+RewriteEngine on
+
+# Записываем базовую директорию сайта
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# С помощью данного регулярного выражения все запросы перенаправляем на index.php
+RewriteRule ^(.*)$ index.php
